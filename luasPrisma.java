@@ -5,11 +5,12 @@ public class luasPrisma {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Masukkan panjang sisi segi enam: ");
-        double sisi = input.nextDouble();
+        double sisi = 7.5;
+        double tinggi = 2.3;
 
-        System.out.print("Masukkan tinggi prisma: ");
-        double tinggi = input.nextDouble();
+        System.out.println("Sisi = " + sisi);
+        System.out.println("Tinggi = " + tinggi);
+
 
         // Menghitung luas prisma segi enam
         double luasPrisma = hitungLuasPrisma(sisi, tinggi);
